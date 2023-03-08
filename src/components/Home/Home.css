@@ -1,0 +1,5 @@
+.instructors-data{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 18px 212px 0 275px;
+}
