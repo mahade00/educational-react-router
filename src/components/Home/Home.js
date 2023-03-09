@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import AboutCompany from '../AboutCompany/AboutCompany';
+import ExploreCatagories from '../ExploreOurCatagories/ExploreCatagories';
+import HeadBanner from '../HeadBanner/HeadBanner';
 import HomeData from '../HomeData/HomeData';
 import './Home.css'
 
@@ -16,6 +19,12 @@ const Home = () => {
 
     return (
         <div>
+            <div>
+                <HeadBanner></HeadBanner>
+                <ExploreCatagories></ExploreCatagories>
+                <AboutCompany></AboutCompany>
+            </div>
+  <div>
             <h1 className="font-sans  font-bold text-4xl text-[#2c2370]">Our Instructors</h1>
             <div className='instructors-data'>                        
                 {
@@ -29,6 +38,8 @@ const Home = () => {
             </div>
             
         </div>
+        </div>
+      
     );
 };
 

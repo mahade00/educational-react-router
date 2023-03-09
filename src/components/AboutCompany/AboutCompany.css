@@ -1,0 +1,9 @@
+.about-company-main{
+    margin-top: 25px;
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+}
+.about-company-main img{
+        height: 338px;
+            width: 433px;
+}

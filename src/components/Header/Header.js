@@ -1,35 +1,40 @@
 import React from 'react';
+import './Header.css'
 import { NavLink } from 'react-router-dom';
+import HeadBanner from '../HeadBanner/HeadBanner';
 
 const Header = () => {
-    let navLinkStyle = ({isActive} )=> {
-        isActive = {
-           fontWeight: isActive ? 'bold' : 'normal' ,
-            color: isActive ? 'red' : 'green',
-            backgroundColor: isActive? 'black':'green' ,
-        }
-         
-  }
+ 
     return (
         <div>
-           
-            <div>
-                <NavLink to={'/home'} style={({isActive })=>        
-          ({ font:isActive ? 'bold' : 'normal' ,
-             color:isActive ? 'white' : 'green',
-            backgroundColor:isActive? 'black':'white'})
-        }>Home</NavLink>
-                <NavLink to={'/courses'} style={{}}>Courses</NavLink>                
-                <NavLink to='/pricing'  style={({isActive })=>        
-          ({ font:isActive ? 'bold' : 'normal' ,
-             color:isActive ? 'white' : 'green',
-            backgroundColor:isActive? 'black':'white'})
-        }>Pricing</NavLink>
-                <NavLink to={'/services'} style={{}}>Services</NavLink>
-                <NavLink to={'/carrer'} style={{}}>Carrer</NavLink>
-                <NavLink to={'/contact'} style={{}}>Contact Us</NavLink>
-                <NavLink to={'/about'} style={{}}>About</NavLink>
+            <div class="content">
+                <a href='/home'>
+                    <h2> EdTech</h2>
+		<h2 >EdTech</h2>
+                </a>
+		
+	</div>
+            <div className='navs'>
+                <NavLink className={'nav home-nav font-medium text-[#2c2370]'} to={'/home'} >Home</NavLink>  
                 
+                <NavLink className={'nav font-medium text-[#2c2370]' } to={'/courses'} >Courses</NavLink>  
+                
+                <NavLink className={'nav font-medium text-[#2c2370]'} to={'/pricing'}  >Pricing</NavLink>
+                
+                <NavLink className={'nav font-medium text-[#2c2370]' } to={'/services'}>Services</NavLink>
+                
+                <NavLink className={'nav font-medium text-[#2c2370]' } to={'/carrer'} >Carrer</NavLink>
+                
+                <NavLink className={'nav font-medium text-[#2c2370]' } to={'/contact'} >Contact</NavLink>
+                
+                <NavLink className={'nav about-nav font-medium text-[#2c2370]'} to={'/about'} >About</NavLink>
+
+                
+                <NavLink className={'log-n-sign-btn log-btn font-medium rounded-full '}>Login</NavLink>
+                <NavLink className={'log-n-sign-btn font-medium rounded-full '}>Sign Up</NavLink>
+                
+                
+             
                 
                 
             </div>

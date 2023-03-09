@@ -1,0 +1,27 @@
+.catagories-main{
+    margin-top: 50px;
+    margin-left: -100px;
+    width: 115%;
+    height: 450px;
+    color:white;
+background-color: #0B033C;
+}
+
+.catagories{
+    padding-top: 53px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.courses{
+    height: 150px;
+    background-color: #0B033C;
+    
+}
+.courses:hover{
+    cursor: pointer;
+    border: 5px solid goldenrod;
+    border-radius:20px;
+}
+.material-icon{
+        color:#FF8E7F;  
+}
