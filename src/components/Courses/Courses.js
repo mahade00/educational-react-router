@@ -14,22 +14,25 @@ const Courses = () => {
                 <div className='courses-rating'>
                     <p className='text-yellow-500 pl-5'>5.0</p>
                     <Rating name="size-small" defaultValue={5} size="small" className='pr-4'/>
-                    <p className='font-semibold'>(32)</p>
+                    <p className='font-semibold text-violet-900'>(32)</p>
                  </div>
                
                 <h1 className='font-bold text-indigo-800 pl-5'>Data Science</h1>
                 <div className='courses-detail'>
-                    <PersonAddAltOutlinedIcon className='courses-detail-icon' />
+                    <PersonAddAltOutlinedIcon className='courses-detail-icon 'sx={ {fontSize:15}} />
                     <p>Enroll 26</p>
-                    <LocalLibraryOutlinedIcon className='courses-detail-icon' />
+                    <LocalLibraryOutlinedIcon className='courses-detail-icon '  sx={ {fontSize:15}}/>
                     <p>12 lessons</p>
-                    <AccessAlarmOutlinedIcon className='courses-detail-icon' />
+                    <AccessAlarmOutlinedIcon className='courses-detail-icon'sx={ {fontSize:15}} />
                     <p>Start 01-01-2023</p>
                 </div>
-                <div className='course-instructor-n-price'>
+                <div className='course-instructor-n-price pt-3'>
                     <h3 className='pl-5'>By<span className='font-bold text-blue-900 pl-2 '>Richard</span> </h3>
                     <p className='font-semibold text-indigo-600'>$34</p>
-                </div>                
+                </div>   
+                <div className='courses-cart'>
+                    <button>Add to Cart</button>
+                </div>
             </div>
         </div>
     );
