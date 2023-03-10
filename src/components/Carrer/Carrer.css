@@ -1,0 +1,30 @@
+.carrer-main{
+    margin: 70px 150px 70px 234px ;
+    display: flex;
+}
+.carrer{
+    margin: 115px 20px 0 0 ;
+}
+.carrer-img img{
+    height: 365px;
+        width: 456px;
+        border-radius: 100px;
+}
+.carrer-btn{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    background-color: #2c2370 ;
+    height: 36px;
+        width: 144px;
+        border-radius: 30px;
+        padding-top: 5px;
+        margin-top: 30px;
+       
+}
+.carrer-btn:hover{
+    border: 2px solid #2c2370;
+    color: #2c2370;
+    background-color: white;
+    cursor: pointer;
+}

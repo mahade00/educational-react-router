@@ -7,7 +7,7 @@ import CourseImage4 from '../images/course-4.webp';
 import CourseImage5 from '../images/course-5.avif';
 import CourseImage6 from '../images/course-6.avif';
 import CourseImage7 from '../images/course-7.webp';
-import CourseImage8 from '../images/course-8.png'
+import CourseImage8 from '../images/course-8.png';
 import { Rating } from '@mui/material';
 import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
 import LocalLibraryOutlinedIcon from '@mui/icons-material/LocalLibraryOutlined';
