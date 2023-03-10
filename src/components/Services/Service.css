@@ -1,0 +1,17 @@
+.service-main{
+    margin: 130px 0 160px 0;
+    display: flex;
+}
+.service{
+    background-color: white;
+    border-radius: 15px;
+    height: 180px;
+    width: 422px;
+}
+.service-icon{
+color: rgb(221, 136, 90);
+}
+.service:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
