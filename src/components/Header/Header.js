@@ -10,7 +10,7 @@ const Header = () => {
             <div class="content">
                 <a href='/home'>
                     <h2> EdTech</h2>
-		<h2 >EdTech</h2>
+		            <h2 >EdTech</h2>
                 </a>
 		
 	</div>

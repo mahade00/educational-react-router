@@ -16,8 +16,8 @@ const HomeData = (props) => {
                  <div className='instructors-details'>
              <img className='content-center ' src={ img} alt=''/>
             <p className="text-lg font-medium text-[#2c2370] ">{name}</p>
-            <p  className='text-[#2c2370]'><span className='text-base font-semibold' >Expert Field:</span>{subject}</p>
-                <p><span className='text-base font-semibold text-[#2c2370]'> Student Satisfaction Rate:</span> {rating}</p>
+            <p  className='text-[#2c2370]'><span className='text-base font-semibold' >Expert Field:</span><span className='text-violet-900'>{subject}</span> </p>
+                <p><span className='text-base font-semibold text-[#2c2370]'> Student Satisfaction Rate:</span> <span className='text-violet-900'> {rating}</span></p>
                
                 <div className='social-icons'>
                     <a  className='text-[#2c2370]' href='git'><GitHubIcon /> </a>

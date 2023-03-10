@@ -1,11 +1,14 @@
-.head-banner{
+.head-banner-main{
     display: flex;
     margin: 63px 0 0 320px;
 }
-.head-banner img{
+.head-banner-main img{
 height: 338px;
     width: 433px;
     border-radius: 300px;
+}
+.head-banner{
+    text-align: left;
 }
 .banner-btn{
     color: white;

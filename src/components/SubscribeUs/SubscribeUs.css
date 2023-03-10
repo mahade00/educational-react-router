@@ -1,0 +1,18 @@
+.email-subscribe{
+    margin: 0 470px 0 546px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.email-subscribe button{
+    height: 40px;
+    width: 100px;
+    margin-top: 23px;
+        margin-right: 57px;
+        border-radius: 6px;
+}
+.email-subscribe button:hover{
+    background-color: white;
+    border: 2px solid #2c2370;
+    color: #2c2370;
+
+}

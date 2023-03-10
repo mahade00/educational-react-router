@@ -1,0 +1,9 @@
+.data-count{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 280px;
+    padding-top: 60px;
+}
+.data-icon{
+    color:rgb(221, 136, 90);
+}

@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import AboutCompany from '../AboutCompany/AboutCompany';
+import DataCount from '../DataCount/DataCount';
 import ExploreCatagories from '../ExploreOurCatagories/ExploreCatagories';
 import HeadBanner from '../HeadBanner/HeadBanner';
 import HomeData from '../HomeData/HomeData';
+import SubscribeUs from '../SubscribeUs/SubscribeUs';
+import WhyChooseUs from '../WhyChooseUs/WhyChooseUs';
 import './Home.css'
 
 
@@ -23,9 +26,10 @@ const Home = () => {
                 <HeadBanner></HeadBanner>
                 <ExploreCatagories></ExploreCatagories>
                 <AboutCompany></AboutCompany>
+                <WhyChooseUs></WhyChooseUs>
             </div>
   <div>
-            <h1 className="font-sans  font-bold text-4xl text-[#2c2370]">Our Instructors</h1>
+            <h1 className="font-sans  font-semibold text-4xl text-[#2c2370]">Our Instructors</h1>
             <div className='instructors-data'>                        
                 {
                     data.map(datas => <HomeData
@@ -35,7 +39,9 @@ const Home = () => {
                         img={datas.img}
                     rating={datas.rating}></HomeData>)
 }
-            </div>
+                </div>
+                <DataCount></DataCount>
+                <SubscribeUs></SubscribeUs>
             
         </div>
         </div>

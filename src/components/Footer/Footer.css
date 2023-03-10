@@ -1,0 +1,17 @@
+.footer-main{
+margin: 20px 196px 20px 196px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.footer-each{
+    text-align: left;
+}
+.footer-each p{
+    font-size: 15px;
+    color: #a9a9a9;
+}
+.social-icon{
+    color:rgb(221, 136, 90);
+}
