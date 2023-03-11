@@ -1,5 +1,5 @@
 .email-subscribe{
-    margin: 0 470px 0 546px;
+    margin: 0 470px 0 570px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }

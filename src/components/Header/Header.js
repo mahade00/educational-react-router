@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css'
 import { NavLink } from 'react-router-dom';
 import HeadBanner from '../HeadBanner/HeadBanner';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const Header = () => {
  
@@ -29,7 +30,7 @@ const Header = () => {
                 
                 <NavLink className={'nav about-nav font-medium text-[#2c2370]'} to={'/about'} >About</NavLink>
 
-                
+                <NavLink><ShoppingCartIcon className='header-shopping-icon'/></NavLink>
                 <NavLink className={'log-n-sign-btn log-btn font-medium rounded-full '}>Login</NavLink>
                 <NavLink className={'log-n-sign-btn font-medium rounded-full '}>Sign Up</NavLink>
                 
