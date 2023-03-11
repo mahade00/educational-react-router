@@ -1,0 +1,15 @@
+.about-main{
+    display: flex;
+    margin:60px 197px 60px 157px ;
+}
+.about{
+    text-align: left;
+    padding-right: 127px;
+    padding-top: 90px;
+}
+.about-image img{
+    height: 416px;
+        width: 1600px;
+        border-radius: 260px;
+
+}
