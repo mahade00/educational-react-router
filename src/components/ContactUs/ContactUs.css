@@ -1,0 +1,48 @@
+.contact-main{
+    margin: 80px 0 80px 0;
+}
+
+.contact-name{
+display: flex;
+margin: 0 0 0 463px;
+
+}
+.contact-name p{
+    padding-right: 116px;
+}
+.contact-sub p, .contact-messge p{
+    margin: 0 326px 0 0;
+}
+.input-text {
+width: 187px;
+box-sizing: border-box;
+border:2px solid #2c2370;
+border-radius: 5px;
+margin: 0 20px 0 0 ;
+}
+.input-sub{
+    width: 400px;
+    border: 2px solid #2c2370;
+    border-radius: 5px;
+}
+.input-message{
+    width: 400px;
+    height: 400px;
+    border: 2px solid #2c2370;
+    border-radius: 5px;
+}
+.contact-btn{
+background-color: #2c2370;
+color: white;
+font-weight: bold;
+margin-top: 10px;
+border-radius: 20px;
+height: 35px;
+width: 80px;
+}
+
+.contact-btn:hover{
+background-color: white;
+color: #2c2370;
+border:2px solid #2c2370;
+}
